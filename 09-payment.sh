@@ -49,7 +49,7 @@ validate $? "Removing old code"
 mkdir -p /app
 validate $? "Creating app directory"
 
-curl -L -o /tmp/payment.zip https://raw.githubusercontent.com/sureshdevops.store/roboshop-documentation/refs/heads/main/artifacts/payment-v4.zip &>> $logs_file
+curl -L -o /tmp/payment.zip https://raw.githubusercontent.com/daws-92s/roboshop-documentation/refs/heads/main/artifacts/payment-v4.zip &>> $logs_file
 validate $? "Downloading payment"
 
 cd /app
